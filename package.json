@@ -1,0 +1,27 @@
+{
+  "name": "powerful-map",
+  "version": "1.0.0",
+  "description": "A powerful version of WeakMap, work only with object with one height in tree",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "rimraf dist && bili",
+    "build": "rimraf dist && bili",
+    "tests": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/jest": "^25.2.3",
+    "@types/mocha": "^7.0.2",
+    "bili": "^4.10.0",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  }
+}
